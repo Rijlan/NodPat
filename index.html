@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NodPat</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="header">
+        <div class="header-title">Untitled</div> - NodPat
+        <div class="header-content">
+          <ul class="menu">
+            <li id="file">File</li>
+            <ul class="dropdown">
+              <li id="new">New</li>
+              <li id="open">Open</li>
+              <li id="save">Save</li>
+              <li id="saveas">Save As</li>
+            </ul>
+            <li id="edit">Edit</li>
+            <ul class="dropdown dropdown-edit">
+              <li id="undo">Undo</li>
+              <li id="paste">Paste</li>
+              <li id="selectall">Select All</li>
+            </ul>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div class="main">
+        <textarea id="field" autofocus></textarea>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
